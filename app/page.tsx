@@ -1,5 +1,5 @@
-import Image from "next/image"
+import { TourHero } from "@/components/ui/tour-hero"
 
 export default function Home() {
-  return <div className="hello"></div>
+  return <TourHero />
 }
